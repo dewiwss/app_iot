@@ -1,7 +1,7 @@
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
-Requirements <a href="https://www.php.net/downloads.php">`PHP >= 7.3.0`</a>
+    Requirements <a href="https://www.php.net/downloads.php"><b>PHP >= 7.3.0</b></a>
 </p>
 
 ## Deployment
@@ -33,3 +33,6 @@ user123<br>
 
 Method `GET` <br>
 Endpoints `http://localhost:{port}/api/v1/device_sensor?data_sensor={nilai_data_sensor}&device_id={device_id}&sensor_id={sensor_id}`
+<p align="center">
+    <img src="database/ERD.png" width="250">
+</p>
