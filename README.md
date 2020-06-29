@@ -33,7 +33,7 @@ email : `user@email.com`<br>
 password : `user123`<br>
 
 
-**ENDPOINTS data sensor**
+**ENDPOINTS API  untuk menerima data dari sensor dan menyimpannya ke dalam database**
 
 Method `GET` <br>
 Endpoints `http://localhost:{port}/api/v1/device_sensor?data_sensor={nilai_data_sensor}&device_id={device_id}&sensor_id={sensor_id}` <br>
