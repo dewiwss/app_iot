@@ -10,8 +10,8 @@
 copy `.env.example` kemudian rename menjadi `.env`<br>
 atur database:<br>
 `DB_DATABASE=app_iot
-DB_USERNAME=root
-DB_PASSWORD=`<br>
+DB_USERNAME={nama username database di komputer}
+DB_PASSWORD={password database di komputer}`<br>
 
 buat database bernama <b>app_iot</b><br>
 
@@ -34,4 +34,5 @@ user123<br>
 Method `GET` <br>
 Endpoints `http://localhost:{port}/api/v1/device_sensor?data_sensor={nilai_data_sensor}&device_id={device_id}&sensor_id={sensor_id}`
 
-<img src="database\ERD.png" width="250">
+### ERD:
+<img src="database/ERD.png" width="250">
