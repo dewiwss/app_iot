@@ -7,7 +7,7 @@
 ## Deployment
 
 `composer update`<br>
-copy `.env.example` kemudian rename menjadi `.env`<br>
+copy `.env.example` kemudian paste dan rename menjadi `.env`<br>
 atur database:<br>
 `DB_DATABASE=app_iot
 DB_USERNAME={username}
