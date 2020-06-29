@@ -9,8 +9,8 @@ using `<a href="https://www.php.net/downloads.php">PHP >= 7.3.0</a>`
 `composer update`<br>
 copy `.env.example` kemudian rename menjadi `.env`<br>
 atur database:<br>
-`DB_DATABASE=app_iot<br>
-DB_USERNAME=root<br>
+`DB_DATABASE=app_iot
+DB_USERNAME=root
 DB_PASSWORD=`<br>
 
 buat database bernama <b>app_iot</b><br>
