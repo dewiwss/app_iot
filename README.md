@@ -35,4 +35,4 @@ Method `GET` <br>
 Endpoints `http://localhost:{port}/api/v1/device_sensor?data_sensor={nilai_data_sensor}&device_id={device_id}&sensor_id={sensor_id}`
 
 ### ERD:
-<img src="ERD.png" width="250">
+<img src="ERD.png" align="center">
