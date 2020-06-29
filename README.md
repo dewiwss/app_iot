@@ -32,7 +32,12 @@ password : `user123`<br>
 **ENDPOINTS data sensor**
 
 Method `GET` <br>
-Endpoints `http://localhost:{port}/api/v1/device_sensor?data_sensor={nilai_data_sensor}&device_id={device_id}&sensor_id={sensor_id}`
+Endpoints `http://localhost:{port}/api/v1/device_sensor?data_sensor={nilai_data_sensor}&device_id={device_id}&sensor_id={sensor_id}` <br>
+Base URI `http://localhost:{port}/api/v1/device_sensor` <br>
+Parameter <br>
+`data_sensor={nilai_data_sensor}` <br>
+`device_id={device_id}` <br>
+`sensor_id={sensor_id}` <br>
 
 ### ERD:
 <img src="ERD.png" align="center">
