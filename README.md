@@ -21,12 +21,12 @@ buat database bernama <b>app_iot</b><br>
 jalankan http://127.0.0.1:8000/ di browser<br>
 
 login admin:<br>
-admin@email.com<br>
-admin123<br>
+email : `admin@email.com`<br>
+password : `admin123`<br>
 
 login user biasa:<br>
-user@email.com<br>
-user123<br>
+email : `user@email.com`<br>
+password : `user123`<br>
 
 
 **ENDPOINTS data sensor**
@@ -35,4 +35,4 @@ Method `GET` <br>
 Endpoints `http://localhost:{port}/api/v1/device_sensor?data_sensor={nilai_data_sensor}&device_id={device_id}&sensor_id={sensor_id}`
 
 ### ERD:
-<img src="database/ERD.png" width="250">
+<img src="ERD.png" width="250">
