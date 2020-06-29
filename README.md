@@ -10,8 +10,12 @@
 copy `.env.example` kemudian rename menjadi `.env`<br>
 atur database:<br>
 `DB_DATABASE=app_iot
-DB_USERNAME={nama username database di komputer}
-DB_PASSWORD={password database di komputer}`<br>
+DB_USERNAME={username}
+DB_PASSWORD={password}`<br>
+Contoh:
+`DB_DATABASE=app_iot
+DB_USERNAME=root
+DB_PASSWORD=`
 
 buat database bernama <b>app_iot</b><br>
 
