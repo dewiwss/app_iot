@@ -22,7 +22,7 @@ class SensorController extends Controller
         if($request->has('cari')){
             $sensors = Sensor::where('sensor_name','LIKE','%'.$request->cari.'%')->orderby('id','desc');
         }else{
-            $sensors = Sensor::orderby('sensor_name','desc');
+            $sensors = Sensor::orderby('id','asc');
         }
         $sensors = $sensors->paginate(5);
         $sensors->appends($request->only('cari'));
@@ -107,14 +107,10 @@ class SensorController extends Controller
     {
          //validate
          $validator = Validator::make($request->all(), [
-            'sensor_code' => 'required|unique:sensors|numeric',
             'sensor_name' => 'required',
             'type' => 'required',
             'description' => 'required',
          ],[
-            'sensor_code.required' => 'Kode sensor tidak boleh kosong',
-            'sensor_code.unique' => 'Kode sensor harus unik',
-            'sensor_code.numeric' => 'Kode sensor hanya diisi dengan tipe number',
             'sensor_name.required' => 'Nama sensor tidak boleh kosong',
             'type.required' => 'Type sensor tidak boleh kosong',
             'description.required' => 'Deskripsi sensor tidak boleh kosong',
