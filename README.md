@@ -1,7 +1,7 @@
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
-Requirements `<a href="https://www.php.net/downloads.php">PHP >= 7.3.0</a>`
+Requirements <a href="https://www.php.net/downloads.php">`PHP >= 7.3.0`</a>
 </p>
 
 ## Deployment
